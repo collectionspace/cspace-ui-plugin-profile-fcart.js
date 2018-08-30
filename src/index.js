@@ -18,7 +18,7 @@ module.exports = () => ({
         name: {
           id: 'cspaceUIPluginProfileFCart.name',
           defaultMessage: 'Fine and Contemporary Art profile',
-        },
+        }
       }),
       version: cspaceUIPluginProfileFCart.packageVersion,
     },
