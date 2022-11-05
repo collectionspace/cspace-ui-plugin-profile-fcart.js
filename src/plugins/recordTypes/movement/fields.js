@@ -15,7 +15,7 @@ export default (configContext) => {
             },
           },
         },
-	normalLocation: {
+        normalLocation: {
           [config]: {
             view: {
               props: {

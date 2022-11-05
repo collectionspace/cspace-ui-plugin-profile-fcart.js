@@ -11,5 +11,5 @@ export default [
   conditioncheck,
   intake,
   concept,
-  movement
+  movement,
 ];
