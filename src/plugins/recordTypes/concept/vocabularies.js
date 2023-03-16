@@ -22,5 +22,6 @@ export default {
     serviceConfig: {
       servicePath: 'urn:cspace:name(ethculture)',
     },
+    disableAltTerms: true,
   },
 };
