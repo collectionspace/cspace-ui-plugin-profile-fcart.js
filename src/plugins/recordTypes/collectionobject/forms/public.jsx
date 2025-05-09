@@ -81,10 +81,6 @@ const template = (configContext) => {
       </Panel>
 
       <Panel name="desc" collapsible>
-        <Field name="colors">
-          <Field name="color" />
-        </Field>
-
         <Field name="materialTechniqueDescription" subpath="ns2:collectionobjects_fineart" />
 
         <Field name="materialGroupList">
@@ -171,18 +167,6 @@ const template = (configContext) => {
             </Field>
           </Col>
         </Row>
-      </Panel>
-
-      <Panel name="hist" collapsible>
-        <Field name="objectHistoryNote" />
-      </Panel>
-
-      <Panel name="owner" collapsible>
-        <Field name="ownersContributionNote" />
-      </Panel>
-
-      <Panel name="viewer" collapsible>
-        <Field name="viewersContributionNote" />
       </Panel>
 
       <Panel name="rights" collapsible collapsed>
