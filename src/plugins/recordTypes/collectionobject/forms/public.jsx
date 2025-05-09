@@ -69,12 +69,6 @@ const template = (configContext) => {
           <Field name="objectNameGroup">
             <Field name="objectNameControlled" />
             <Field name="objectName" />
-            <Field name="objectNameCurrency" />
-            <Field name="objectNameLevel" />
-            <Field name="objectNameSystem" />
-            <Field name="objectNameType" />
-            <Field name="objectNameLanguage" />
-            <Field name="objectNameNote" />
           </Field>
         </Field>
 
@@ -87,14 +81,17 @@ const template = (configContext) => {
           <Field name="materialGroup">
             <Field name="materialControlled" />
             <Field name="material" />
-            <Field name="materialComponent" />
-            <Field name="materialComponentNote" />
-            <Field name="materialName" />
-            <Field name="materialSource" />
           </Field>
         </Field>
 
-        {extensions.dimension.form}
+        <Field name="measuredPartGroupList">
+          <Field name="measuredPartGroup" tabular={true}>
+            <Row>
+              <Field name="measuredPart" />
+              <Field name="dimensionSummary" />
+            </Row>
+          </Field>
+        </Field>
 
         <Panel name="content" collapsible>
           <Field name="contentDescription" />
