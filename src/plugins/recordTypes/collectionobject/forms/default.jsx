@@ -185,6 +185,10 @@ const template = (configContext) => {
               </Field>
             </Field>
 
+            <Field name="objectProductionAgents">
+              <Field name="objectProductionAgent" />
+            </Field>
+
             <Field name="objectProductionNote" />
 
             <Field name="creatorDescription" subpath="ns2:collectionobjects_fineart" />
